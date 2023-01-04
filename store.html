@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Pokemon Project </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <!-- allows wbesite icon -->
+  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+  <!-- Pokemon Font -->
+  <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+  </style>
+  
+</head>
+
+<body class="storeWhole">
+    
+<!-- Navbar -->
+   <nav class="navbar navbar-expand-lg bg-danger">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+    <img src="https://cdn-icons-png.flaticon.com/512/1752/1752681.png" width="30" height="30" alt="">
+  </a>
+    <a class="navbar-brand" href="index.html">Ashanti's Pokemon Website</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       
+        <!-- NAV-BAR LINKS LIST --> 
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="about.html">About</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="pokemon.html">Pokemon</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="store.html">Store</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <!-- STORE ---> 
+  <section class="store-page">
+    <div class="d-flex justify-content-center padding">
+      <img class="pokemart-gif" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5daa3a21-2cb9-46d9-a555-5f2cfbb700e8/daphgky-01fc5fdf-09a5-4f22-bf07-ba9789c599b3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVkYWEzYTIxLTJjYjktNDZkOS1hNTU1LTVmMmNmYmI3MDBlOFwvZGFwaGdreS0wMWZjNWZkZi0wOWE1LTRmMjItYmYwNy1iYTk3ODljNTk5YjMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.TB0efUiEO9Nre81M5bXGm1rLIALMwuManU_6tWx5tuA" width="90%" height="600">
+    </div>
+    
+    <div class="container store-section">
+      <div class="row">
+        
+        <div class="col-md-4">
+          <h2 class = "pokeStore"> Pikachu Plushie </h2>
+           <img src="/media/pikaplush.png" id="myImg" width="310" height="400" class= "pokeImg">
+           <p class = "pokeTX"> A stuffed plush toy of Pokemon's main long-time mascot, Pikachu!</p>
+           <h4> $19.99 </h4>
+           <a href="https://www.amazon.com/My-Super-Star-Stuffed-Animals/dp/B09BBWRKFR/ref=sr_1_5?crid=3NZL1BA9QB6NF&keywords=pikachu+plush&qid=1669829868&sprefix=pikachu+plush%2Caps%2C162&sr=8-5"><button type="button" class="btn btn-success"> Purchase </button></a>
+        </div>
+        
+        <div class="col-md-4">
+          <h2 class = "pokeStore"> Eevee Plushie</h2>
+           <img src="/media/eeveeplush.png" width="300" height="330" class="pokeImg">
+           <p class = "pokeTX"> A stuffed plush toy of another one of Pokemon's long-time mascots, Eevee! </p>
+           <h4> $29.99 </h4>
+           <a href = "https://www.amazon.com/Pokemon-8-Plush-Eevee-toys/dp/B07K1F8TXG/ref=sr_1_5?crid=YZ5ZIGZAKLEP&keywords=eevee+plush&qid=1669830140&sprefix=eevee+plushi%2Caps%2C215&sr=8-5"><button type="button" class="btn btn-success"> Purchase </button></a>
+        </div>
+        
+        <div class="col-md-4">
+          <h2 class = "pokeStore"> Nintendo Switch OLED: Scarlet/Violet Edition</h2>
+           <img src="https://static.independent.co.uk/2022/09/07/14/pokemon%20switch%20oled.png?quality=75&width=640&auto=webp" width="400" height="350" class="pokeImg">
+           <p class = "pokeTX"> A Nintendo Switch OLED with a theme of the newest games currently, Scarlet and Violet! You'll be very lucky if you get your hands on one! </p>
+           <h4> $369.99 </h4>
+           <a href = "https://www.amazon.com/Nintendo-Switch-OLED-Model-Pokemon-Scarlet/dp/B0BLP6FW67/ref=sr_1_1?crid=1SA81OILL8AF8&keywords=nintendo+switch+oled+scarlet+and+violet+edition&qid=1669830249&sprefix=nintendo+switch+oled+scar%2Caps%2C155&sr=8-1"><button type="button" class="btn btn-success"> Purchase </button></a>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class = "pokeStore">Pokemon Silver Tempest Booster Box</h2>
+           <img src="https://cdn.shopify.com/s/files/1/0559/6187/8643/products/SilverTempestBoosterBox_1024x1024.png?v=1664912325" width="400" height="370" class="pokeImg">
+           <p class = "pokeTX"> Into collecting cards from popular franchises? Pokemon has vast amount of booster boxes available to everyone! Check out one of newest booster boxes! </p>
+           <h4> $108.79 </h4>
+           <a href ="https://www.amazon.com/Pok%C3%A9mon-TCG-Tempest-Booster-Display/dp/B0BF9GJLMQ"><button type="button" class="btn btn-success"> Purchase </button></a>
+        </div>
+        
+        <div class="col-md-4">
+          <h2 class = "pokeStore">Pokemon Figures</h2>
+           <img src="https://ae01.alicdn.com/kf/H5d87e3e15ed04d55ab498b158f13644dm/144Pcs-Styles-Pokemon-toys-Figures-Model-Collection-2-3cm-Pokemon-Pikachu-Anime-Figure-Toys-Dolls-Child.jpg" width="400" height="350" class="pokeImg">
+           <p class = "pokeTX"> Figures for popular franchises are very common and Pokemon is no different! </p>
+           <h4> $22.69 </h4>
+           <a href = "https://www.amazon.com/Monster-Complete-Pokemon-Action-Figures/dp/B0BJ69THDR/ref=sr_1_2?crid=2AG55SXSUBEC0&keywords=pokemon%2Bfigurines&qid=1669831594&sprefix=pokemon%2Bfigurine%2Caps%2C142&sr=8-2&th=1"><button type="button" class="btn btn-success"> Purchase </button></a>
+        </div>
+        
+        <div class="col-md-4">
+          <h2 class = "pokeStore">Pokemon Violet- Nintendo Switch</h2>
+           <img src="https://m.media-amazon.com/images/I/71ldCNgOCCL.jpg" width="300" height="400" class="pokeImg">
+           <p class = "pokeTX"> Get the newest game of Pokemon available for the Nintendo Switch! </p>
+           <h4> $59.80 </h4>
+           <a href ="https://www.amazon.com/Pok%C3%A9mon-Violet-Nintendo-Switch/dp/B09TMHDVLD/ref=sr_1_2?crid=YGNI1BDLGH5O&keywords=pokemon%2Bgames&qid=1669832008&sprefix=pokemon%2Bgame%2Caps%2C333&sr=8-2&th=1"><button type="button" class="btn btn-success"> Purchase </button></a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- Contact Form Section --> 
+  <div class = allFooter>
+    
+  <div class = "contact us! ">
+   <div class = "container">
+     <div class = "row">
+       <div class = "col-md-6">
+         <a id="contact"> <h3 class= pokeHeader> Contact Me! </h3></a>
+         <p class=pokeText> Have a message you want to send me? To the right, please enter your full name, email address, phone number and finally type your message! When you're done, please press "Submit Message"! I also included my work contact information that you can also message me from!</p>
+       </div>
+
+    <!-- Form Section --> 
+       <div class = "col-md-6">
+     <!--- 01 - Full Name --->
+       <div class="input-group mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-default" >
+     <!--- ICON --->
+  <i class="fi-cnsuxl-telegram"></i>
+  </span>
+         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Please enter your full name">
+</div>
+        <!--- 02 - Email Address  --->
+         <div class="input-group mb-3">
+           <span class="input-group-text" id="inputGroup-sizing-default">
+     <!--- ICON --->
+  <i class="fi-xwsuxl-envelope-solid"></i>
+           </span>
+           <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Please enter your email">
+</div>
+      <!--- 03 - Phone Number  --->
+         <div class="input-group mb-3">
+           <span class="input-group-text" id="inputGroup-sizing-default">
+     <!--- ICON --->
+  <i class="fi-xnsuxl-whatsapp"></i>
+           </span>
+           <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Please enter your phone number">
+</div>
+       <!--- 04 - LEAVE MESSAGE  --->
+        <div class="input-group">
+
+  <textarea class="form-control" aria-label="With textarea"></textarea>
+          <button class='btn btn-primary'>Submit message</button>
+</div>
+
+          </div>
+   </div>
+  </div>
+    </div>
+
+
+<!--   FOOTER -->
+    <footer>
+      
+      <article class="container p-5">
+        <hr class="text-center"/>
+  <div class = "footerPoke">
+    <div class = "container">
+      <h3 class = "homepageh3">Ashanti's Pokemon Website</h3>
+
+      <i class="fi-xnsuxl-envelope-text-solid"></i>
+      <span class = "homepagespan">Po Box 310</span>
+      <br>
+
+      <i class="fi-xnsuxl-house-solid"></i>
+      <span class = "homepagespan">Hartford, CT, 12430</span>
+      <br>
+
+     <i class="fi-xwsuxl-envelope-solid"></i>
+      <span class = "homepagespan">ashanti934@gmail.com</span>
+      <br>
+
+      <i class="fi-cnsuxl-smartphone"></i>
+      <span class = "homepagespan">(201)-967-8098</span>
+      <br>
+    </div>
+  </div>
+      </article>
+      </footer>
+
+  
+<!--  CUSTOM JS -->
+  <script src="script.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"> </script>
+</body>
+</html>
